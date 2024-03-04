@@ -1,0 +1,40 @@
+h1 {
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #FFE7E7;
+    background-color: #944E63;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#description {
+    font-size: 20px;
+    text-align: center;
+    color: #FFE7E7;
+}
+
+body {
+    background-color: #944E63;
+}
+
+div {
+    color: #FFE7E7;
+    margin: 5px;
+    padding: 10px;
+}
+
+#right {
+    float: right;
+}
+
+#display {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width:80%; 
+}
