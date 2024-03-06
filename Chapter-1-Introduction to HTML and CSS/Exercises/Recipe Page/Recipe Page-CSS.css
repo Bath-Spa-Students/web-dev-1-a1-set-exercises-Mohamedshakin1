@@ -1,11 +1,10 @@
 h1 {
-    font-family:cursive;
+    font-family: cursive;
     font-size: 50px;
-    text-align: center;
-    color: #FFE7E7;
-    background-color: #944E63;
+    text-align: center;   
     margin-top: 20px;
     padding: 15px;
+    color: #FFE7E7;
 }
 
 #description {
@@ -38,3 +37,12 @@ div {
     margin-right: auto;
     width:80%; 
 }
+
+#titlebox{
+    background-image: url('/Chapter-1-Introduction to HTML and CSS/Exercises/Recipe Page/Images/grilledchicken.jpg');
+    background-size: auto;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+}
+
+
