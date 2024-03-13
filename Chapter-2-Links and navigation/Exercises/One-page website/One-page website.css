@@ -1,7 +1,57 @@
 body {
-    background-color: #9A031E ;
+    background-color: #F4EEE0;
+    color: #393646;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 header{
-    background-color: #FB8B24;
-    margin-top: 0px;
+    background-color: #27374D;
+    width: auto;
+    margin-top: 0%;
+    font-size: 25px;
+    height: 50px;
 }
+
+nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a:link {
+    color: #EEE2DE;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #9DB2BF;
+}
+
+nav a:hover {
+    color: #E57C23
+}
+
+#plot {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+#plot h1 {
+    font-size: 70px;
+}
+
+#plot p {
+    font-size: 25px;
+}
+
+
+
+
