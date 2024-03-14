@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #F4EEE0;
     color: #393646;
@@ -57,10 +61,9 @@ nav a:hover {
 h1 {
     margin-top: 75px;
     text-align: center;
-    text-decoration: underline;
 }
 
-#key-information {
+.key-information{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -72,6 +75,28 @@ h1 {
 .name {
     font-weight: 700;
 }
+
+.cast {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+}
+
+.cast-info {
+    height: 120px;
+    width: 120px;
+    background-color: #637A9F;
+    font-size: 22px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+
+
+
 
 
 
