@@ -8,6 +8,7 @@ body {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Chakra Petch", sans-serif;
 }
 
 header{
@@ -42,6 +43,7 @@ nav a:hover {
     color: #E57C23
 }
 
+
 #plot {
     width: 80%;
     margin-left: auto;
@@ -55,6 +57,7 @@ nav a:hover {
 }
 
 #plot p {
+    text-align: center;
     font-size: 25px;
 }
 
@@ -77,22 +80,32 @@ h1 {
 }
 
 .cast {
-    width: 80%;
+    margin-top: 50px;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    /*flex-wrap: nowrap;*/
     justify-content: space-between;
 }
 
 .cast-info {
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 190px;
     background-color: #637A9F;
     font-size: 22px;
-    padding: 0px 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+.character {
+    background-color: #9DB2BF;
+    height: fit-content;
+}
+
+
+
 
 
 
