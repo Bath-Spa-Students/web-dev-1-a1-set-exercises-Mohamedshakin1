@@ -75,6 +75,23 @@ h1 {
     font-size: 22px;
 }
 
+.button {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #637A9F;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button:hover {
+    background-color: #E57C23;
+    color: black;
+    text-decoration: none;
+}
+
 .name {
     font-weight: 700;
 }
@@ -90,7 +107,8 @@ h1 {
 
 .cast-info {
     height: 130px;
-    width: 190px;
+    width: 195px;
+    color: white;
     background-color: #637A9F;
     font-size: 22px;
     border-radius: 5px;
@@ -101,13 +119,32 @@ h1 {
 
 .character {
     background-color: #9DB2BF;
-    height: fit-content;
+    color: black;
+    height: 100%;
+    position: relative;
+    padding-top: 15px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 
+.reviews {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:column;
+    background-color:#637A9F;
+    color: white;
+    padding: 10px 25px
+}
 
+.user-name {
+    font-size: 25px;
+}
 
-
+.user-review {
+    font-size: 20px
+}
 
 
 
