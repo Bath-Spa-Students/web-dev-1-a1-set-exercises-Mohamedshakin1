@@ -1,12 +1,23 @@
 body {
     margin: auto;
     width: 80%;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     justify-content: center;
-    width: max-content;
-    height: max-content;
+    margin-bottom: 30px;
 }
 
+.filter1 {
+    filter: grayscale();
+}
+
+.filter2 {
+    filter:invert();
+}
+
+.filter3 {
+    filter:blur(100);
+}
