@@ -5,19 +5,24 @@ body {
     flex-direction: column;
 }
 
-img {
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
 .filter1 {
+    margin: 0%;
+    width: 100%;
     filter: grayscale();
 }
 
+.filter1 img, .filter2 img, .filter3 img {
+    width: 100%;
+}
+
 .filter2 {
+    margin: 0%;
+    width: 100%;
     filter:invert();
 }
 
 .filter3 {
+    margin: 0%;
+    width: 100%;
     filter:blur(100);
 }
