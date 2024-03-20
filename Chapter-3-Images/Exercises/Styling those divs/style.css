@@ -9,3 +9,7 @@ div {
     height: 200px;
 }
 
+.div4 {
+    box-shadow: 0px 0px 0px 2px orange, 0px 0px 0px 4px blue;
+
+}
