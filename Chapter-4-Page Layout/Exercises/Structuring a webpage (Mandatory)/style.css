@@ -4,23 +4,33 @@ body {
 }
 
 header {
+    padding-top: 30px;
     background-color: #17072b;
     color: #ffffff;
     text-align: center;
+    font-size: 25px;
 }
 
 header ul{
     list-style-type: none;
-    display: inline;
-    flex-direction: column;
+    display: flex;
+    margin: 25px auto;
+    width: 45%;
+    justify-content: space-between;
+    padding-bottom: 15px;
 }
+
 
 header h1 {
     margin: 0px;
+    font-family: Tahoma;
+    text-decoration: underline;
 }
+
 
 aside {
     background-color: #172d67;
+    float: right;
 }
 
 footer {
