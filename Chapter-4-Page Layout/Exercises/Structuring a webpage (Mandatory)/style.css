@@ -27,12 +27,66 @@ header h1 {
     text-decoration: underline;
 }
 
+main {
+    display: flex;
+    margin: 0px 20px;
+    font-size: 23px;
+    margin-right: 0%;
+    position: relative;
+    margin-top: -10px;
+}
+
+article {
+    margin: 0px;
+    width: 60%;
+    padding-top:10px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.section_head {
+    margin:0px;
+    font-size: 35px;
+    font-weight:700;
+    text-decoration: underline;
+}
+
+article img {
+    width: 100%;
+}
+
 
 aside {
     background-color: #172d67;
+    color: #ffffff;
     float: right;
+    width: 40%;
+    padding-left: 30px;
+}
+
+aside p{
+    font-size: 35px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0px
+}
+
+aside div {
+    margin-top: 125px
 }
 
 footer {
     background-color: #8c15e9;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+footer p {
+    margin: 0%;
 }
