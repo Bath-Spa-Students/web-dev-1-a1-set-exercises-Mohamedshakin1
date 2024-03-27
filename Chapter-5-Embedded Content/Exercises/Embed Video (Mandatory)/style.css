@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    background-color: #FFF67E;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+video {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
