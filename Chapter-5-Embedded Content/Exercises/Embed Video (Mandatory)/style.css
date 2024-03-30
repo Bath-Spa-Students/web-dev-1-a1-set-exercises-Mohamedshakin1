@@ -3,11 +3,6 @@ body {
     background-color: #FFF67E;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
 .video-container {
     display: flex;
     justify-content: center;
