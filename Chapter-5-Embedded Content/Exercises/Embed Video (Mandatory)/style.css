@@ -8,10 +8,14 @@ h1 {
     text-align: center;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
 video {
     width: auto;
-    height: 400px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
+    height: 600px; 
 }
