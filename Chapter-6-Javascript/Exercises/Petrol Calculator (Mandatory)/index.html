@@ -12,12 +12,12 @@
 <body>
     <div class="petrol_calculator">
         <h1>Petrol Calculator</h1>
-        <div>
-            <p>Petrol per liter</p>
+        <div class="user-input">
+            <p>Petrol per liter:</p>
             <input id="Petrol_Price" placeholder="Enter the cost of petrol per liter" type="number" value="1.72">
         </div>
-        <div>
-            <p>Number of liters purchased</p>
+        <div class="user-input">
+            <p>Number of liters purchased:</p>
             <input id="liters" placeholder="Enter the number of liters purchased" type="number" value="0">
         </div>
         <div id="button">
@@ -25,10 +25,14 @@
         </div>
 
         <div id="petrol_purchased">
-            <p>Total amount of petrol purchased: </p>
-            <p id="total_Amount"></p>
+            <p>Total amount of petrol purchased: &nbsp</p>
+            <div id="total_box">
+                <p id="total_Amount"></p>
+            </div>
         </div>
     </div>
+
+    <footer> &copy; Made by Mohamed Shakin</footer>
 </body>
 
 </html>
