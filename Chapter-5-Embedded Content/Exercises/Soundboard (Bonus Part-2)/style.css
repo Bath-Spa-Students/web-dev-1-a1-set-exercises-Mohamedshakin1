@@ -1,6 +1,7 @@
 body {
     background-image: url(./Media/yellow-background.jpeg);
     background-size: cover;
+    margin: 0 30px;
 }
 
 p {
@@ -10,15 +11,59 @@ p {
     font-weight: 600;
 }
 
-.grid-container {
+.container {
+    display: flex;
+}
+
+.speech-container {
+    float: left;
+    width: 50%;
+}
+
+
+.textbox input {
+    width: 85%;
+    height: 150px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FFFDCB;
+}
+
+.textbox input:active {
+    border: 0;
+}
+
+.speak-button {
+    width: 85%;
+}
+
+.speak-button button {
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 5px;
+    background-color: #FFAF45;
+    border: 0;
+}
+
+.speak-button button:hover {
+    border: 0;
+    background-color: #FFFDCB;
+}
+
+.grid-container {
+    float: right;
+    margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 50px;
-    padding: 10px;
-    margin-top: 50px;
+    padding: 7px;
 }
 
 .grid-container > div {
@@ -51,4 +96,32 @@ p {
 
 audio {
     display: none;
+}
+
+
+.heading1 {
+    font-size: 22px;
+    margin: 0%;
+    margin-right: auto;
+    width: 85%;
+    margin-bottom: 18px;
+    background-color: #C08B5C;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.heading2 {
+    font-size: 22px;
+    margin: 0%;
+    margin-bottom: 18px;
+    background-color: #C08B5C;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.note p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
 }
