@@ -13,4 +13,5 @@ body {
 video {
     width: auto;
     height: 600px; 
+    box-shadow: 7px 7px 10px rgb(30, 29, 29);
 }
