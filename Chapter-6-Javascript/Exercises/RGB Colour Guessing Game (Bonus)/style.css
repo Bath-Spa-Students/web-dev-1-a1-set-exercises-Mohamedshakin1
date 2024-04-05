@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    background-color: #7360DF;
+    font-family:monospace
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+
+
+.menu p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+#box1, #box2, #box3 {
+    height: 350px;
+    width: 350px;
+    border: 2px solid #596FB7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#first, #second, #third {
+    display: none;
+}
+
+.option {
+    height: 100%;
+    font-size: 50px;
+}
+
+.play-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    font-size: 21px;
+    padding: 10px 15px;
+    background-color: #F2AFEF;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #F6ECA9;
+}
+
+
