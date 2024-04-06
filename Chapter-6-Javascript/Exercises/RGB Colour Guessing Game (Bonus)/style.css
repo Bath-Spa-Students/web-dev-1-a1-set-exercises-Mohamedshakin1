@@ -1,13 +1,13 @@
 body {
-    margin: auto;
-    background-color: #7360DF;
-    font-family:monospace
+    margin: auto;                        /* It fits contents to full screen */
+    background-color: #7360DF;         /* it sets background color  */
+    font-family:monospace               /* it sets font family to monospace */
 }
 
 h1 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 40px;
+    text-align: center;                /*it aligns text in center*/
+    margin-top: 40px;                  /* it sets distance between plot section and top of the screen*/
+    font-size: 40px;                   /* it sets size of the text*/
 }
 
 
@@ -18,51 +18,59 @@ h1 {
 }
 
 .container {
-    display: flex;
+    display: flex;                            /* it sets all elements placed in next to each other*/   
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    justify-content: space-between;
+    margin-left: auto;                        /* it sets margin left to screen*/
+    margin-right: auto;                       /* it sets margin right to screen*/
+    width: 75%;                               /* it sets width to 75%*/
+    justify-content: space-between;           /*Within total width, it will distribute space evenly between the elements*/
 }
 
 #box1, #box2, #box3 {
-    height: 350px;
-    width: 350px;
-    border: 2px solid #596FB7;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    height: 350px;                              /* box height to 350px*/
+    width: 350px;                               /* box width to 350px*/
+    border: 2px solid #596FB7;                /*sets border of 5px solid with color of #596FB7*/
+    border-radius: 10px;                        /* it sets border-radius to 10px*/
+    display: flex;                             /*Here display flex is used, to position the text in center of the box*/
+    justify-content: center;                   /* here justify-content aligns the text in center of the box*/
 }
 
 #first, #second, #third {
-    display: none;
+    display: none;                            /* it hides the text*/
 }
 
 .option {
-    height: 100%;
-    font-size: 50px;
+    height: 100%;                            /* it sets height to 100%*/
+    font-size: 50px;                         /* it sets size of text*/
 }
 
 .play-button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;                      /* it sets margin left to screen*/
+    margin-right: auto;                     /* it sets margin right to screen*/
+    width: 100%;                            /* it sets width to 100%*/
+    display: flex;                          /*Here display flex is used, to position the button in center*/
+    justify-content: center;                /* here justify-content aligns the text in center of the box*/
     margin-top: 50px;
 }
 
 button {
-    font-size: 21px;
-    padding: 10px 15px;
-    background-color: #F2AFEF;
-    border: 0;
-    border-radius: 5px;
+    font-size: 21px;                       /* it sets size of the text*/
+    padding: 10px 15px;                    /* it sets distance between the content and top and bottom of the border to 10px and left side and right side of the border to 15px */
+    background-color: #F2AFEF;           /* it sets background color  */
+    border: 0;                             /* it removes border*/
+    border-radius: 5px;                    /* it sets border radius of the button to 5px*/
 }
 
 button:hover {
-    background-color: #F6ECA9;
+    background-color: #F6ECA9;           /* it sets background color of the button when mouse cursor is pointed to link */
 }
 
+footer {
+    background-color: white;
+    bottom: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+}
 
