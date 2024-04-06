@@ -1,42 +1,41 @@
+/*Styling for h1 tag*/
 h1 {
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 1000px;
-    font-size: 70px; 
-    margin-top: 20px;
-    padding: 15px;
-    color: #FFE7E7;
+    font-family:'Times New Roman', Times, serif;   /* it sets font family to Times New Roman */ 
+    font-size: 70px;  /* it sets font size to 70px */
+    margin-top: 20px;  /* it sets gap between h1 tag and top of the screen */
+    padding: 15px;     /* it sets gap between the content and the border of h1 tag  */
+    color: #FFE7E7;  /* it sets color of the text  */
 }
 
 #description {
-    position: relative;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFE7E7;
-    text-align: center;
-    top: -40px
+    position: relative; /* it enables the element to be position from reference point of parent element  */
+    font-family: "Times New Roman", Times, serif;  /* it sets font family to Times New Roman */
+    font-size: 20px;  /* it sets font size to 20px */
+    font-weight: 600;  /* it sets font thickness to 20px */
+    color: #FFE7E7;  /* it sets color of the text  */
+    text-align: center;  /* it aligns the text in center  */
+    top: -40px  /* it sets of position of the element */
 }
 
 body {
-    background-color: #3b4c3d;
+    background-color: #3b4c3d;  /* it sets background color  */
 }
 
 div {
-    margin-top: 5px;
-    color: #FFE7E7;
+    margin-top: 5px;    /* it sets distance between div box and top of the elements of div box*/
+    color: #FFE7E7;   /* it sets color of the text*/
 }
 
 #right {
-    float: right;
+    float: right;      /* the element float on right side*/
 }
 
 #display {
-    font-size: larger;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
+    font-size: larger;   /* it sets size of the text*/
+    margin-left: auto;   /* it sets margin left to screen */
+    margin-right: auto;  /* it sets margin right to screen */
+    width: 85%;          /* Within both left and right margin, the display box is aligned in horizontally center with 85% width */
+    display: flex;       /* it sets all elements placed in next to each other*/
 }
 
 #container {
@@ -57,8 +56,6 @@ img {
     position:absolute;
     text-align: center;  
     top:10px;
-    justify-content: center;
-    
 }
 
 footer {
