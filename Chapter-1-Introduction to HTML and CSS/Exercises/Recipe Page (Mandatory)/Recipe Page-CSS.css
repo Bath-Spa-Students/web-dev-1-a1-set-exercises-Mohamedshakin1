@@ -2,7 +2,7 @@
 h1 {
     font-family:'Times New Roman', Times, serif;   /* it sets font family to Times New Roman */ 
     font-size: 70px;  /* it sets font size to 70px */
-    margin-top: 20px;  /* it sets gap between h1 tag and top of the screen */
+    margin-top: 20px;  /* it sets distance between h1 tag and top of the screen */
     padding: 15px;     /* it sets gap between the content and the border of h1 tag  */
     color: #FFE7E7;  /* it sets color of the text  */
 }
@@ -66,6 +66,6 @@ footer {
     background-color: #FFF67E;   /* it sets background color  */
     font-size: 20px;    /* it sets size of the text*/
     font-weight:bold;   /* it sets font in bold */
-    padding: 7px;   /* it sets gap between the content and the border of footer */
-    bottom: 0;    /* it sets 0 gap between footer and bottom of the screen */
+    padding: 7px;   /* it sets distance between the content and the border of footer */
+    bottom: 0;    /* it sets 0 distance between footer and bottom of the screen */
 }
