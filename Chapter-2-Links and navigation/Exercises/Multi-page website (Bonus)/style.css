@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background-color: #F4EEE0;   /* it sets background color  */
-    color: #393646;   /* it sets color of the text  */
-    margin: auto;  /* It fits contents to full screen */
+    background-color: #F4EEE0;               /* it sets background color  */
+    color: #393646;                          /* it sets color of the text  */
+    margin: auto;                               /* It fits contents to full screen */
     font-family: "Chakra Petch", sans-serif;    /* it sets font family to Chakra Petch */
 }
 
@@ -18,17 +18,17 @@ header{
 }
 
 nav{
-    display: flex;     /* it sets all elements placed in next to each other*/
-    margin-left: auto;    /* it sets margin left to screen*/
-    margin-right: auto;   /* it sets margin right to screen*/
-    height: 100%;      /* it sets height of the nav box to 100%*/
-    width: 80%;        /* it sets width of the nav box to 80%*/
-    align-items: center;      /*it aligns elements in vertically center*/
+    display: flex;                   /* it sets all elements placed in next to each other*/
+    margin-left: auto;               /* it sets margin left to screen*/
+    margin-right: auto;              /* it sets margin right to screen*/
+    height: 100%;                    /* it sets height of the nav box to 100%*/
+    width: 80%;                      /* it sets width of the nav box to 80%*/
+    align-items: center;                  /*it aligns elements in vertically center*/
     justify-content: space-between;     /*Within total width of the nav box, it will distribute space evenly between the elements*/
 }
 
 nav a:link {
-    color: #EEE2DE;    /* it sets color of the link */
+    color: #EEE2DE;        /* it sets color of the link */
     text-decoration: none;   /* it removes underlined text of the link */
 }
 
@@ -42,7 +42,7 @@ nav a:hover {
 
 
 #plot {
-    width: 80%;     /* it sets width of plot section to 80%*/
+    width: 80%;           /* it sets width of plot section to 80%*/
     margin-left: auto;    /* it sets margin left to screen*/
     margin-right: auto;   /* it sets margin right to screen*/
     margin-top: 75px;     /* it sets distance between plot section and top of the elements of plot section*/
@@ -58,66 +58,66 @@ nav a:hover {
 }
 
 h1 {
-    margin-top: 75px;    /* it sets distance between h1 and top of the elements of h1*/
+    margin-top: 75px;      /* it sets distance between h1 and top of the elements of h1*/
     text-align: center;    /* it aligns the text in center  */
 }
 
 .key-information{
-    width: 80%;           /* it sets width of plot section to 80%*/
-    margin-left: auto;     /* it sets margin left to screen*/
-    margin-right: auto;    /* it sets margin right to screen*/
-    display:flex;         /* it sets all elements placed in next to each other*/
+    width: 80%;                         /* it sets width of plot section to 80%*/
+    margin-left: auto;                  /* it sets margin left to screen*/
+    margin-right: auto;                 /* it sets margin right to screen*/
+    display:flex;                       /* it sets all elements placed in next to each other*/
     justify-content: space-between;    /*Within total width of the key-information section, it will distribute space evenly between the elements*/
-    font-size: 22px;    /* it sets size of the text*/
+    font-size: 22px;                   /* it sets size of the text*/
 }
 
 .button {
-    font-size: 20px;      /* it sets size of the text*/
-    padding: 15px;       /* it sets distance between the content and the border of button */
-    background-color: #637A9F;    /* it sets background color  */
-    color: black;     /* it sets color of the text  */
-    text-decoration: none;     /* it removes underlined text of the link */
-    display: flex;            /* here display flex sets full width of the button*/
-    justify-content: center;    /* here justify-content aligns the text of the button in center*/
+    font-size: 20px;                   /* it sets size of the text*/
+    padding: 15px;                     /* it sets distance between the content and the border of button */
+    background-color: #637A9F;       /* it sets background color  */
+    color: black;                    /* it sets color of the text  */
+    text-decoration: none;              /* it removes underlined text of the link */
+    display: flex;                       /* here display flex sets full width of the button*/
+    justify-content: center;             /* here justify-content aligns the text of the button in center*/
 
 }
 
 .button:hover {
-    background-color: #E57C23;   /* it sets background color of the link when mouse cursor is pointed to link */
-    color: black;   /* it sets color of the link when mouse cursor is pointed to link */
-    text-decoration: none;   /* it removes underlined text of the link */
+    background-color: #E57C23;     /* it sets background color of the link when mouse cursor is pointed to link */
+    color: black;                  /* it sets color of the link when mouse cursor is pointed to link */
+    text-decoration: none;            /* it removes underlined text of the link */
 }
 
 .name {
-    font-weight: 700;   /* it sets thickness of the text*/
+    font-weight: 700;    /* it sets thickness of the text*/
 }
 
 .cast {
-    margin-top: 50px;    /* it sets distance between cast section and top of the elements of cast section*/
-    width: 85%;     /* it sets width of plot section to 80%*/
-    margin-left: auto;     /* it sets margin left to screen*/
-    margin-right: auto;   /* it sets margin right to screen*/
-    display: flex;        /* it sets all elements placed in next to each other*/
-    justify-content: space-between;    /*Within total width of the key-information section, it will distribute space evenly between the elements*/
+    margin-top: 50px;                    /* it sets distance between cast section and top of the elements of cast section*/
+    width: 85%;                          /* it sets width of plot section to 80%*/
+    margin-left: auto;                   /* it sets margin left to screen*/
+    margin-right: auto;                   /* it sets margin right to screen*/
+    display: flex;                         /* it sets all elements placed in next to each other*/
+    justify-content: space-between;      /*Within total width of the key-information section, it will distribute space evenly between the elements*/
 }
 
 .cast-info {
-    height: 130px;     /* it sets height of the cast-info box to 130px*/
-    width: 195px;      /* it sets width of the cast-info box to 130px*/
-    color: white;    /* it sets color of the text  */
-    background-color: #637A9F;      /* it sets background color  */
-    font-size: 22px;          /* it sets size of the text*/
-    border-radius: 5px;       /* it sets border-radius of cast-info box to 5px */
-    display: flex;           /* it sets all elements placed in next to each other*/
-    flex-direction: column;   /* it sets all elements place in colum-wise*/
-    text-align: center;       /* it aligns the text in center  */
+    height: 130px;                      /* it sets height of the cast-info box to 130px*/
+    width: 195px;                       /* it sets width of the cast-info box to 130px*/
+    color: white;                      /* it sets color of the text  */
+    background-color: #637A9F;         /* it sets background color  */
+    font-size: 22px;                     /* it sets size of the text*/
+    border-radius: 5px;                  /* it sets border-radius of cast-info box to 5px */
+    display: flex;                       /* it sets all elements placed in next to each other*/
+    flex-direction: column;              /* it sets all elements place in colum-wise*/
+    text-align: center;                  /* it aligns the text in center  */
 }
 
 .character-name {
-    background-color: #9DB2BF;     /* it sets background color  */
-    color: black;          /* it sets color of the text  */
-    height: 100%;           /* it sets height of the character-name box to 100%*/
-    padding-top: 15px;      /* it sets distance between the content and the top border */
+    background-color: #9DB2BF;          /* it sets background color  */
+    color: black;                      /* it sets color of the text  */
+    height: 100%;                        /* it sets height of the character-name box to 100%*/
+    padding-top: 15px;                  /* it sets distance between the content and the top border */
     border-radius: 0px 0px 5px 5px;     /* it sets border-radius of character-name box to 0px of top left, 0px of top right, 5px of bottom right, 5px of bottom left */
 }
 
@@ -125,13 +125,13 @@ h1 {
 .reviews {
     margin-top: 50px;       /* it sets distance between reviews section and top of the elements of reviews section*/
     width: 80%;            /* it sets width of review section to 80%*/
-    margin-left: auto;     /* it sets margin left to screen*/
-    margin-right: auto;   /* it sets margin right to screen*/
-    display: flex;             /* it sets all elements placed in next to each other*/
-    flex-direction:column;      /* it sets all elements place in colum-wise*/
-    background-color:#637A9F;     /* it sets background color  */
-    color: white;         /* it sets color of the text  */
-    padding: 10px 25px       /* it sets distance between the content and top and bottom of the border to 10px and left side and right side of the border to 25px */
+    margin-left: auto;                 /* it sets margin left to screen*/
+    margin-right: auto;                /* it sets margin right to screen*/
+    display: flex;                       /* it sets all elements placed in next to each other*/
+    flex-direction:column;             /* it sets all elements place in colum-wise*/
+    background-color:#637A9F;         /* it sets background color  */
+    color: white;                     /* it sets color of the text  */
+    padding: 10px 25px                 /* it sets distance between the content and top and bottom of the border to 10px and left side and right side of the border to 25px */
 }
 
 .user-name {
@@ -140,29 +140,30 @@ h1 {
 
 .user-review {
     position: relative;       /* it enables the element to be position from reference point of parent element  */
-    top: -10px;         /* it sets of position of the element */
-    font-size: 20px     /* it sets size of the text*/
+    top: -10px;               /* it sets of position of the element */
+    font-size: 20px           /* it sets size of the text*/
 }
 
 .character{
-    margin-top: 10px;        /* it sets distance between character section and top of the elements of character section*/
-    margin-left: auto;        /* it sets margin left to screen*/
-    margin-right: auto;      /* it sets margin right to screen*/
-    width: 80%;            /* it sets width of character section to 80%*/
-    display: flex;         /* it sets all elements placed in next to each other*/
-    justify-content: space-between;    /*Within total width of the character section, it will distribute space evenly between the elements*/
-    gap: 20px;     /* it sets gaps between the boxes*/
-}
+    margin-top: 10px;                    /* it sets distance between character section and top of the elements of character section*/
+    margin-left: auto;                   /* it sets margin left to screen*/
+    margin-right: auto;                  /* it sets margin right to screen*/
+    width: 80%;                          /* it sets width of character section to 80%*/
+    display: flex;                       /* it sets all elements placed in next to each other*/
+    justify-content: space-between;      /*Within total width of the character section, it will distribute space evenly between the elements*/
+    gap: 20px;                           /* it sets gaps between the boxes*/
+}              
 
 .character-description {
-    margin-top: 30px;       /* it sets distance between character box and top of the elements of character box*/
+    margin-top: 30px;                  /* it sets distance between character box and top of the elements of character box*/
     background-color: #9DB2BF;       /* it sets background color  */
-    display: flex;                   /* it sets all elements placed in next to each other*/
-    flex-direction: column;         /* it sets all elements place in colum-wise*/
-    flex-basis: 100%;          /* it sets all boxes in same width even if it has less number of texts*/
-    padding: 15px;           /* it sets distance between the content and the border of character box */
-    font-size: 22px;         /* it sets size of the text*/
+    display: flex;                     /* it sets all elements placed in next to each other*/
+    flex-direction: column;           /* it sets all elements place in colum-wise*/
+    flex-basis: 100%;                 /* it sets all boxes in same width even if it has less number of texts*/
+    padding: 15px;                   /* it sets distance between the content and the border of character box */
+    font-size: 22px;                 /* it sets size of the text*/
 }
+
 
 footer {
     background-color: white;    /* it sets background color  */
