@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    margin: auto;  /* It fills content to full screen */
     background-color: #F4EEE0;
     color: black;
     width: 85%;
