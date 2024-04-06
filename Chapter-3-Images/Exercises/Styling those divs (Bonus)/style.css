@@ -15,26 +15,27 @@ body {
   }
 
 .div1 {
-    margin: 15px;
-    border: 5px solid #8a2ae3;
-    box-shadow: 7px 7px 5px red;
+    margin: 15px;      /*sets distance between the boxes*/
+    border: 5px solid #8a2ae3;       /*sets border of 5px solid with color of #8a2ae3*/
+    box-shadow: 7px 7px 5px red;     /*sets border shadow with horizontally 7px, vertically 7px, blurness of 5px and color of red*/
 }
 
 .div2 {
-    margin: 15px;
-    border: 5px solid #00ff00;
-    box-shadow: 7px 7px 5px black inset;
+    margin: 15px;   /*sets distance between the boxes*/
+    border: 5px solid #00ff00;              /*sets border of 5px solid with color of 300ff00*/
+    box-shadow: 7px 7px 5px black inset;     /*sets border shadow in the box with horizontally 7px, vertically 7px, blurness of 5px and color of black*/
 }
 
 .div3 {
-    margin: 35px;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 0px 0px 0px 5px orange, 0px 0px 0px 15px blue, 0px 0px 0px 25px red, 0px 0px 0px 35px green;
+    margin: 35px;     /*sets distance between the boxes*/
+    border: none;     /*removes the border*/
+    border-radius: 25px;      /*sets border-radius to 25px*/
+    box-shadow: 0px 0px 0px 5px orange, 0px 0px 0px 15px blue, 0px 0px 0px 25px red, 0px 0px 0px 35px green;    /*it sets multiple border, first border with 5px
+    radius in orange color, second border with 15px radius in blue color, third border with 25px in red color, fourth border with 35px in green color*/
 }
 
 .div4 {
     margin: 15px;
-    border: 5px solid #b22222;
-    text-shadow: 5px 5px 1px;
+    border: 5px solid #b22222;    /*sets border of 5px solid with color of #b22222*/
+    text-shadow: 5px 5px 1px;   /*sets text shadow with horizontally 5px, vertically 5px, blurness of 1px*/
 }
