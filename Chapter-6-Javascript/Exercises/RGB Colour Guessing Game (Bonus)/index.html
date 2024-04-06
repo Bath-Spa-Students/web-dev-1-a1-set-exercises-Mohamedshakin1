@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RGB</title>
+    <!--Linking to CSS file from a folder-->
     <link rel="stylesheet" href="/Chapter-6-Javascript/Exercises/RGB Colour Guessing Game (Bonus)/style.css">
 </head>
-<body onload="game()">
+<body onload="game()">   <!--the webpage is loaded, game() function will be called and execute its function-->
+    <!--Heading-->
     <h1>Guess RGB color</h1>
     <div class="menu">
-        <p> Guess the color of <span id="rgb-name"></span></p>
-        <p> <span id="result"></span></p>
+        <p> Guess the color of <span id="rgb-name"></span></p>    <!--RGB Color name will be wriiten-->
+        <p> <span id="result"></span></p>       <!--Result will be wriiten-->
     </div>
 
     <div class="container" >
-        <div id="box1" onclick="colorResult()">
+        <div id="box1" onclick="colorResult()">  <!--When the box1 is clicked, colorResult() function will be called and execute its function-->
             <p id="first"></p>
             <p class="option">A</p>
         </div>
-        <div id="box2" onclick="colorResult()">
+        <div id="box2" onclick="colorResult()">  <!--When the box1 is clicked, colorResult() function will be called and execute its function-->
             <p id="second"></p>
             <p class="option">B</p>
         </div>
-        <div id="box3" onclick="colorResult()">
+        <div id="box3" onclick="colorResult()">  <!--When the box2 is clicked, colorResult() function will be called and execute its function-->
             <p id="third"></p>
             <p class="option">C</p>
         </div>
     </div>
 
     <div class="play-button">
-    <button onclick="game()">Play Again</button>
+    <button onclick="game()">Play Again</button>   <!--When the play-button is clicked, game() function will be called and execute its function-->
     </div>
     
+    <!--Footer-->
+    <footer> &copy; Made by Mohamed Shakin</footer>
 </body>
+<!--Linking to JavaScript file from a folder-->
 <script src="/Chapter-6-Javascript/Exercises/RGB Colour Guessing Game (Bonus)/index.js"></script>
 </html>
