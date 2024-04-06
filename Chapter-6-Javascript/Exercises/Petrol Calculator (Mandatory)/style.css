@@ -1,66 +1,66 @@
 body {
-    background-color: #F0ECE5;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0ECE5;                           /* it sets background color  */
+    margin: auto;                                           /* It fits contents to full screen */
+    font-family: Arial, Helvetica, sans-serif;             /* it sets font family to Arial */
 }
 
 .petrol_calculator {
-    margin-top: 100px;
+    margin-top: 100px;                                  /* it sets distance between plot section and top of the screen*/
     background-color: #31304D;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0px 1px 5px 1px gray;
-    color: white;
+    width: 30%;                                        /* it sets width to 30%*/
+    margin-left: auto;                                 /* it sets margin left to screen*/
+    margin-right: auto;                               /* it sets margin right to screen*/
+    display: flex;                                    /* it sets all elements placed in next to each other*/
+    flex-direction: column;                           /* it sets all elements place in colum-wise*/
+    border-radius: 5px;                              /* it sets border radius to 5px*/
+    padding: 10px;                                   /* it sets distance between the content and border to 10px*/
+    box-shadow: 0px 1px 5px 1px gray;              /*sets border shadow in the box with horizontally 0px, vertically 1px, blurness of 5px, radius of 1px and color of black*/ 
+    color: white;                                 /* it sets text color  */
 }
 
 .petrol_calculator > h1 {
-    text-align: center;
+    text-align: center;                              /*it aligns text in center*/
 }
 
 .user-input {
-    display: inline;
-    margin: 10px;
+    display: inline;                                /* it display the element in inline*/
+    margin: 10px;                                   /* it set the distance between current element and nearby elements*/
 }
 
 .user-input p{
-    display: inline;
+    display: inline;                               /* it display the element in inline*/
 }
 
 .user-input input {
-    float: right;
-    width: 50%;
-    padding: 3px;
+    float: right;                                 /* the element float on right side*/
+    width: 50%;                                   /* it sets width to 50%*/
+    padding: 3px;                                 /* it sets distance between the content and border to 10px*/
 }
 
 #button {
-    margin-left: auto;
-    width: 52%;
+    margin-left: auto;                           /* it sets margin left to petrol_calculator container*/
+    width: 52%;                                  /* here width sets to 52%, it means positioning from left margin*/
 }
 
 button {
     color: black;
     background-color: #B6BBC4;
     font-size: 15px;
-    border: none;
+    border: none;              
     padding: 7px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 10px;                           /* it sets distance between current element and top of the elements*/
     
 }
 
 button:hover {
-    background-color: orange;
+    background-color: orange;                 /* it sets background color of the button when mouse cursor is pointed to link */
 }
 
 #petrol_purchased {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
+    display: flex;                             /* it sets all elements placed in next to each other*/
+    margin-top: 10px;                          /* it sets distance between current element and top of the elements*/
+    margin-left: 10px;                         /* it sets distance between current element and left of the container*/
 }
 
 footer {
