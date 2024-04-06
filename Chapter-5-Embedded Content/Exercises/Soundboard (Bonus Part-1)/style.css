@@ -1,54 +1,54 @@
 body {
-    background-image: url(./Media/yellow-background.jpeg);
-    background-size: cover;
+    background-image: url(./Media/yellow-background.jpeg);   /*inserting background image from a folder*/
+    background-size: cover;                                 /* keeping its original aspect ratio and image fills the body background*/
 }
 
 p {
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    text-align: center;                               /* it aligns the text in center  */
+    font-size: 40px;                                  /* it sets size of the text*/
+    font-family: Arial, Helvetica, sans-serif;        /* it sets font family to Arial */
+    font-weight: 600;                                /* it sets font thickness to 600 */
 }
 
 .grid-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 50px;
-    padding: 10px;
-    margin-top: 50px;
+    margin-left: auto;                              /* it sets margin left to screen*/
+    margin-right: auto;                             /* it sets margin right to screen*/
+    width: 80%;                                     /* it sets width of grid-container to 80%*/
+    display: grid;                                  /*It sets the element to display in grid*/
+    grid-template-columns: auto auto auto;          /*The number of auto = the number of columns*/
+    gap: 50px;                                      /*Sets gap between each element to 50px*/
+    padding: 10px;                                  /* it sets distance between the content and the border */
+    margin-top: 50px;                               /* it sets distance between grid-container and top of the elements*/
 }
 
 .grid-container > div {
-    text-align: center;
-    height: 120px;
+    text-align: center;           /* it aligns the text in center  */ 
+    height: 120px;                /* it sets height to 120px*/
 }
 
 .grid-container > div > button {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 0;
-    background-color: #FFC94A;
+    width: 100%;                      /* it sets width of button to 100%*/
+    height: 100%;                     /* it sets height of button to 100%*/
+    justify-content: center;          /*Text inside button is align in horizontally center*/
+    align-items: center;              /*Text inside button is align in vertically center*/
+    font-size: 18px;                  /* it sets size of the text*/
+    border-radius: 5px;               /* it sets border radius of the button to 5px*/
+    border: 0;                        /*It removes border*/
+    background-color: #FFC94A;      /* it sets background color of button  */
 }
 
 .grid-container > div > button:hover {
-    background-color: #FF8911;
-    transform: scale(1.1);
-    border: 0;
+    background-color: #FF8911;       /* it sets background color of the button when mouse cursor is pointed to link */
+    transform: scale(1.1);             /* it sets transformation of shape size of the button when mouse cursor is pointed to link */
+    border: 0;                         /* it removes the border*/
 }
 
 .name {
-    font-size: 21px;
-    font-weight: 650;
-    margin: 10px;
+    font-size: 21px;                 /* it sets size of the text*/
+    font-weight: 650;               /* it sets font thickness to 650 */
+    margin: 10px;                   /* it sets distance between current element and nearby elements to 10px*/
 }
 
 audio {
-    display: none;
+    display: none;                 /* it hides the audio file*/
 }
