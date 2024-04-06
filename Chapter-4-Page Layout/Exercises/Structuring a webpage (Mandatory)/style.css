@@ -1,80 +1,78 @@
 body {
-    margin: auto;
-    font-family: "Arial";
+    margin: auto;   /* It fits contents to full screen */
+    font-family: "Arial";    /* it sets font family to Arial */
 }
 
 header {
-    padding-top: 30px;
-    background-color: #17072b;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
+    padding-top: 30px;              /* it sets distance between the content and the top border */
+    background-color: #17072b;    /* it sets background color  */
+    color: #ffffff;              /* it sets color of the text  */
+    text-align: center;           /* it aligns the text in center  */
+    font-size: 25px;             /* it sets size of the text*/
 }
 
 header ul{
-    list-style-type: none;
-    display: flex;
-    margin: 25px auto;
-    width: 45%;
-    justify-content: space-between;
-    padding-bottom: 15px;
+    list-style-type: none;    /* it removes list type*/
+    display: flex;          /* it sets all elements placed in next to each other*/
+    margin: 25px auto;      /* it sets distance between the current element and top and bottom of the elements to 25px and left side and right side of the elements to auto */
+    width: 45%;            /* it sets width to 45%*/
+    justify-content: space-between;    /*Within total width, it will distribute space evenly between the elements*/
+    padding-bottom: 15px;            /* it sets distance between the content and the bottom border */
 }
 
 
 header h1 {
-    margin: 0px;
-    font-family: Tahoma;
-    text-decoration: underline;
+    margin: 0px;      /* it removes margin of h1 tag */
+    font-family: Tahoma;          /* it sets font family to Tahome */
+    text-decoration: underline;    /* it sets underline to text */
 }
 
 main {
-    display: flex;
-    margin: 0px 20px;
-    font-size: 23px;
-    margin-right: 0%;
-    position: relative;
-    margin-top: -10px;
+    display: flex;           /* it sets all elements placed in next to each other*/
+    margin: 0px 20px;       /* it sets distance between the current element and top and bottom of the elements to 0px and left side and right side of the elements to 20px*/   
+    font-size: 23px;        /* it sets size of the text*/
+    margin-right: 0%;       /* it removes margin-right*/
+    margin-top: -10px;       /* it sets margin-top to -10px*/
 }
 
 article {
-    margin: 0px;
-    width: 60%;
-    padding-top:10px;
-    padding-left: 10px;
-    margin-right: 20px;
+    margin: 0px;           /* it removes margin*/
+    width: 60%;           /* it sets width to 60%*/
+    padding-top:10px;      /* it sets distance between the content and the top border */
+    padding-left: 10px;     /* it sets distance between the content and the left border */
+    margin-right: 20px;      /* it sets margin-right to 20 px*/
 }
 
-.section_head {
-    margin:0px;
-    font-size: 35px;
-    font-weight:700;
-    text-decoration: underline;
+.section_head {             
+    margin:0px;             /* it removes margin*/
+    font-size: 35px;        /* it sets size of the text*/
+    font-weight:700;        /* it sets font thickness to 700 */
+    text-decoration: underline;      /* it sets underline to text */
 }
 
 article img {
-    width: 100%;
+    width: 100%;            /* it sets width to 100%*/
 }
 
-
 aside {
-    background-color: #172d67;
-    color: #ffffff;
-    float: right;
-    width: 40%;
-    padding-left: 30px;
+    background-color: #172d67;     /* it sets background color  */
+    color: #ffffff;               /* it sets color of the text  */
+    float: right;                  /* the element float on right side*/
+    width: 40%;                    /* it sets width to 40%*/
+    padding-left: 30px;            /* it sets distance between the content and the left border */
 }
 
 aside p{
-    font-size: 35px;
+    font-size: 35px;              /* it sets size of the text*/
 }
 
 aside ul {
-    list-style-type: "- ";
-    padding: 0px
+    list-style-type: "- ";       /* it set list type as "- "*/
+    padding: 0px                 /* it removes padding*/
 }
 
 aside div {
-    margin-top: 125px
+    margin-top: 125px            /* it sets margin-top to 120px*/
 }
 
 footer {
