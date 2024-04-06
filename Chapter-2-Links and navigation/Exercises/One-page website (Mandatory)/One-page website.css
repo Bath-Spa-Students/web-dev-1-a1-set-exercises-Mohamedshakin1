@@ -166,7 +166,7 @@ h1 {
 
 footer {
     background-color: white;   /* it sets background color  */
-    margin-bottom: auto;         /* it sets size of the text*/
+    margin-bottom: auto;         /* it sets margin bottom to screen*/
     margin-top: 40px;           /* it sets distance between footer and top of the elements*/
     text-align: center;         /* it aligns the text in center  */
     font-size: 20px;            /* it sets size of the text*/
