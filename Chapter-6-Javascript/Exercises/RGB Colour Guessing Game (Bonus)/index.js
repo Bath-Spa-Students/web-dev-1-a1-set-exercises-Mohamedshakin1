@@ -5,6 +5,8 @@ var box3=document.getElementById('box3')
 var a=document.getElementById('first')
 var b=document.getElementById('second')
 var c=document.getElementById('third')
+var result= document.getElementById('result')
+
 
 function randomColor() {
     var r= Math.floor(Math.random()*256)
@@ -37,8 +39,7 @@ function colorResult() {
     }
     else if (color_name.textContent==c.textContent){
         result.innerHTML="C is the right answer"
-    }
-    
+    }  
 }
 
 function game() {
