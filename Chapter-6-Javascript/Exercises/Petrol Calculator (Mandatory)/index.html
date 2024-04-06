@@ -5,34 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petrol Calculator</title>
+    <!--Linking to CSS file from a folder-->
     <link rel="stylesheet" href="/Chapter-6-Javascript/Exercises/Petrol Calculator (Mandatory)/style.css">
-    <script src="/Chapter-6-Javascript/Exercises/Petrol Calculator (Mandatory)/index.js"></script>
 </head>
 
 <body>
     <div class="petrol_calculator">
+        <!-- Heading -->
         <h1>Petrol Calculator</h1>
         <div class="user-input">
             <p>Petrol per liter:</p>
-            <input id="Petrol_Price" placeholder="Enter the cost of petrol per liter" type="number" value="1.72">
+            <input id="Petrol_Price" placeholder="Enter the cost of petrol per liter" type="number" value="1.72">  <!--Inside input box, "Enter the cost of petrol per liter" 
+                is displayed, default value is 1.72-->
         </div>
         <div class="user-input">
             <p>Number of liters purchased:</p>
-            <input id="liters" placeholder="Enter the number of liters purchased" type="number" value="0">
+            <input id="liters" placeholder="Enter the number of liters purchased" type="number" value="0"> <!--Inside input box, "Enter the number of liters purchased" 
+                is displayed, default value is 0-->
         </div>
         <div id="button">
-            <button onclick="calculate()">Calculate</button>
+            <!--When the button is clicked, calculate() function will be called and execute its function-->
+            <button onclick="calculate()">Calculate</button>  
         </div>
 
         <div id="petrol_purchased">
             <p>Total amount of petrol purchased: &nbsp</p>
             <div id="total_box">
-                <p id="total_Amount"></p>
+                <p id="total_Amount"></p> <!--Text will be inserted after calculating the total amount of petrol purchased-->
             </div>
         </div>
     </div>
 
+    <!--Footer-->
     <footer> &copy; Made by Mohamed Shakin</footer>
 </body>
-
+<!--Linking to JavaScript file from a folder-->
+<script src="/Chapter-6-Javascript/Exercises/Petrol Calculator (Mandatory)/index.js"></script>
 </html>
