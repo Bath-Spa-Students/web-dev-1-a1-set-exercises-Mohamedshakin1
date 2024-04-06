@@ -1,44 +1,44 @@
 body {
-    margin: auto;  /* It fills content to full screen */
-    background-color: #F4EEE0;
-    color: black;
-    width: 85%;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;  /* It fits contents to full screen */
+    background-color: #F4EEE0;  /* it sets background color  */
+    color: black;   /* it sets color of the text  */
+    width: 85%;    /* Within margin from all sides, the width sets to 85% */ 
+    font-family: Arial, Helvetica, sans-serif;   /* it sets font family to Arial */
 }
 
 .heading {
-    text-align: center;
-    margin-top: 40px;
+    text-align: center;    /* it aligns the text in center  */
+    margin-top: 40px;     /* it sets distance between h1 tag and top of the screen */
 }
 
 p, ul, ol{
-    margin: 0;
+    margin: 0;   /* it removes the text in center  */
 }
 
 .box {
-    background-color: #9DB2BF;
-    color: black;
-    padding-left: 20px;
-    font-size: 15px;
+    background-color: #9DB2BF;   /* it sets background color  */
+    color: black;     /* it sets color of the text  */
+    padding-left: 20px;    /* it sets distance between the content and the left border */
+    font-size: 15px;   /* it sets size of the text*/
 }
 
 .title {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-    color: #2f434e;
+    text-align: center;    /* it aligns the text in center  */
+    font-size: 30px;      /* it sets size of the text*/
+    margin-top: 50px;     /* it sets distance between title class selector and top of the elements*/
+    color: #2f434e;     /* it sets color of the text  */
 }
 
 .concept {
-    font-size: 20px;
-    margin-top: 45px;
+    font-size: 20px;      /* it sets size of the text*/
+    margin-top: 45px;     /* it sets distance between concept class selector and top of the elements*/
 }
 
 footer {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    text-align: center;      /* it aligns the text in center  */
+    font-size: 22px;        /* it sets size of the text*/
+    margin-top: 30px;      /* it sets distance between footer and top of the elements*/
+    margin-bottom: 10px;    /* it sets distance between footer and bottom of the screen*/
 }
 
 
