@@ -1,17 +1,17 @@
 body {
-    margin: auto;
-    background-color: #FFF67E;
+    margin: auto;                     /* It fits contents to full screen */
+    background-color: #FFF67E;      /* it sets background color  */
 }
 
 .video-container {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+    display: flex;         /*Here display flex is used, to position the video in center of the screen*/
+    justify-content: center;    /*it aligns video in horizontally center*/
+    height: 100vh;              /* It sets height of full screen*/
+    align-items: center;        /*it aligns video in vertically center*/
 }
 
 video {
-    width: auto;
-    height: 600px; 
-    box-shadow: 7px 7px 10px rgb(30, 29, 29);
+    width: auto;              /*It sets width to auto*/
+    height: 600px;            /*It sets height to 600px*/
+    box-shadow: 7px 7px 10px rgb(30, 29, 29);        /*sets border shadow with horizontally 7px, vertically 7px, blurness of 10px*/
 }
