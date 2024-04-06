@@ -1,117 +1,117 @@
 body {
-    background-image: url(./Media/yellow-background.jpeg);
-    background-size: cover;
+    background-image: url(./Media/yellow-background.jpeg);   /*inserting background image from a folder*/
+    background-size: cover;                                 /* keeping its original aspect ratio and image fills the body background*/
     margin: 0 30px;
 }
 
 p {
-    text-align: center;
+    text-align: center;                                    
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
 .container {
-    display: flex;
+    display: flex;           /* it sets all elements placed in next to each other*/
 }
 
 .speech-container {
-    float: left;
-    width: 50%;
+    float: left;            /* the element float on left side*/
+    width: 50%;             /* it sets width to 50%*/
 }
 
 
 .textbox input {
-    width: 85%;
-    height: 150px;
-    padding-left: 15px;
-    border-radius: 5px;
-    border: 0;
+    width: 85%;                           /* it sets width to 55%*/
+    height: 150px;                        /* it sets height to 150px*/
+    padding-left: 15px;                   /* it sets distance between the content and the left border */
+    border-radius: 5px;                   /* it sets border-radius to 5px*/
+    border: 0;                            /* It removes border*/
     background-color: #FFFDCB;
 }
 
 .textbox input:active {
-    border: 0;
+    border: 0;                          /* It removes border of the input box*/
 }
 
 .speak-button {
-    width: 85%;
+    width: 85%;                        /* here width sets to 85%, it means width of the margin*/
 }
 
 .speak-button button {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 550;
-    border-radius: 5px;
-    background-color: #FFAF45;
-    border: 0;
+    display: flex;                    /*Here display flex is used, to position the button in center of the screen*/ 
+    justify-content: center;          /*Text inside button is align in horizontally center*/
+    margin-left: auto;                /* it sets margin left to screen*/
+    margin-right: auto;               /* it sets margin right up to speech container*/
+    margin-top: 20px;                  /* it sets distance between grid-container and top of the elements*/
+    padding: 10px;                    /* it sets distance between the content and the border */
+    font-size: 18px;                  /*font-size: 40px;*/
+    font-weight: 550;                 /* it sets font thickness to 550 */
+    border-radius: 5px;               /* it sets border-radius to 5px*/
+    background-color: #FFAF45;      /* it sets background color of button  */
+    border: 0;                       /* It removes border of the button */
 }
 
 .speak-button button:hover {
-    border: 0;
-    background-color: #FFFDCB;
+    border: 0;                                  /*It removes border*/
+    background-color: #FFFDCB;               /* it sets background color of the button when mouse cursor is pointed to link */
 }
 
 .grid-container {
     float: right;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 50px;
-    padding: 7px;
+    margin-right: auto;                         /* it sets margin right to screen*/
+    display: grid;                              /*It sets the element to display in grid*/
+    grid-template-columns: auto auto auto;      /*The number of auto = the number of columns*/
+    gap: 50px;                                  /*Sets gap between each element to 50px*/
+    padding: 7px;                               /* it sets distance between the content and the border */
 }
 
 .grid-container > div {
-    text-align: center;
-    height: 120px;
+    text-align: center;                         /* it aligns the text in center  */
+    height: 120px;                              /* it sets height to 120px*/
 }
 
 .grid-container > div > button {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 0;
-    background-color: #FFC94A;
+    width: 100%;                               /* it sets width of button to 100%*/
+    height: 100%;                              /* it sets height of button to 100%*/
+    justify-content: center;                  /*Text inside button is align in horizontally center*/
+    align-items: center;                      /*Text inside button is align in vertically center*/
+    font-size: 18px;                          /* it sets size of the text*/
+    border-radius: 5px;                       /* it sets border radius of the button to 5px*/
+    border: 0;                               /*It removes border*/
+    background-color: #FFC94A;             /* it sets background color of button  */
 }
 
 .grid-container > div > button:hover {
-    background-color: #FF8911;
-    transform: scale(1.1);
-    border: 0;
+    background-color: #FF8911;             /* it sets background color of the button when mouse cursor is pointed to link */
+    transform: scale(1.1);                   /* it sets transformation of shape size of the button when mouse cursor is pointed to link */
+    border: 0;                              /* it removes the border*/
 }
 
 .name {
-    font-size: 21px;
-    font-weight: 650;
-    margin: 10px;
+    font-size: 21px;                        /* it sets size of the text*/
+    font-weight: 650;                      /* it sets font thickness to 650 */
+    margin: 10px;                          /* it sets distance between current element and nearby elements to 10px*/
 }
 
 audio {
-    display: none;
+    display: none;                        /* it hides the audio file*/
 }
 
 
-.heading1 {
-    font-size: 22px;
-    margin: 0%;
-    margin-right: auto;
-    width: 85%;
-    margin-bottom: 18px;
+.heading1 { 
+    font-size: 22px;                     /* it sets size of the text*/
+    margin: 0%;                          /* it removes the margin*/
+    margin-right: auto;                  /* it sets margin right up to speech container*/
+    width: 85%;                          /* it sets width to 85%*/
+    margin-bottom: 18px;                 /* it sets distance between current element and bottom elements to 18px*/
     background-color: #C08B5C;
     padding: 10px;
     border-radius: 5px;
 }
 
 .heading2 {
-    font-size: 22px;
+    font-size: 22px;                      
     margin: 0%;
     margin-bottom: 18px;
     background-color: #C08B5C;
@@ -120,8 +120,8 @@ audio {
 }
 
 .note p {
-    color: black;
-    font-size: 18px;
-    text-align: left;
-    margin-top: 20px;
-}
+    color: black;                   /* it sets color of the text  */
+    font-size: 18px;                  /* it sets size of the text*/
+    text-align: left;                 /* it aligns the text to left  */
+    margin-top: 20px;                 /* it sets distance between cast section and top of the elements*/
+} 
