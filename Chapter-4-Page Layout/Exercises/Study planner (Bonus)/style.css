@@ -1,85 +1,85 @@
 body {
-    margin: auto;
-    background-color: #333A73;
-    font-family:Arial, Helvetica, sans-serif
+    margin: auto;                               /* It fits contents to full screen */
+    background-color: #333A73;                /* it sets background color  */
+    font-family:Arial, Helvetica, sans-serif    /* it sets font family to Arial */
 }
 
 header {
-    background-color: #FBA834;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 22px;
-    padding-bottom: 10px;
+    background-color: #FBA834;           /* it sets background color  */
+    text-align: center;                    /* it aligns the text in center  */
+    padding-top: 20px;                    /* it sets distance between the content and the top border */
+    font-size: 22px;                      /* it sets size of the text*/
+    padding-bottom: 10px;                 /* it sets distance between the content and the bottom border */
 }
 
 header h1 {
-    margin: 0px
+    margin: 0px        /*It removes margin of h1 tag*/
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    font-weight: 500;
+    text-decoration: none;       /*It removes underline of text*/
+    color: black;             /* it sets color of the text  */
+    font-size: 25px;            /* it sets size of the text*/
+    font-weight: 500;           /* it sets font thickness to 500 */
 }
 
 a:hover {
-    color: #EEE4B1;
+    color: #EEE4B1;          /* it sets color of the link when mouse cursor is pointed to link */
 }
 
 nav{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    height: 100%;
-    width: 80%;
-    align-items: center;
-    justify-content: space-between;
+    display: flex;              /* it sets all elements placed in next to each other*/
+    margin-left: auto;          /* it sets margin left to screen*/
+    margin-right: auto;        /* it sets margin right to screen*/
+    margin-top: 20px;          /* it sets distance between plot section and top of the elements of nav*/
+    height: 100%;             /* it sets height to 100%*/
+    width: 80%;               /* it sets width to 80%*/
+    align-items: center;                  /* it aligns the text in center  */
+    justify-content: space-between;       /*Within total width, it will distribute space evenly between the elements*/
 }
 
 
 .container {
-    margin-top: 40px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    justify-content: space-between;
-    font-size: 20px;
-    border-radius: 5px;
+    margin-top: 40px;               /* it sets distance between plot section and top of the elements of container*/           
+    display: flex;                  /* it sets all elements placed in next to each other*/
+    margin-left: auto;              /* it sets margin left to screen*/
+    margin-right: auto;             /* it sets margin right to screen*/
+    width: 100%;                    /* it sets width to 100%*/
+    justify-content: space-between;      /*Within total width, it will distribute space evenly between the elements*/
+    font-size: 20px;                   /* it sets size of the text*/
+    border-radius: 5px;                /* it sets border-radius to 5px*/
 }
 
 .section-left {
-    margin-left: 25px;
-    height: 300px;
-    width: 700px;
-    background-color: #B6BBC4;
-    float: left;
-    padding-left: 25px ;
-    border-radius: 5px;
+    margin-left: 25px;                /* it sets margin-left to 25 px*/
+    height: 300px;                    /* it sets height to 300px*/
+    width: 700px;                     /* it sets height to 700%*/
+    background-color: #B6BBC4;      /* it sets background color  */
+    float: left;                      /* the element float on left side*/
+    padding-left: 25px ;               /* it sets distance between the content and the left border */
+    border-radius: 5px;                /* it sets border-radius to 5px*/
 }
 
 .section-right {
-    margin-right: 25px;
+    margin-right: 25px;                /* it sets margin-left to 25 px*/
     height: 300px;
     width: 700px;
     background-color: #B6BBC4;
-    float: right;
+    float: right;                      /* the element float on left side*/
     padding-left: 25px;
     border-radius: 5px;
 }
 
 .heading {
-    font-weight: 750;
-    font-size: 22px;
+    font-weight: 750;                /* it sets font thickness to 700 */
+    font-size: 22px;                 /* it sets size of the text*/
 }
 
 .notes {
-    margin-top: 25px;;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 5px; 
+    margin-top: 25px;;                /* it sets margin-top to 25 px*/
+    margin-left: 25px;                /* it sets margin-left to 25 px*/
+    margin-right: 25px;               /* it sets margin-right to 25 px*/
+    padding: 5px;                    /* it sets distance between the content and the border */
     padding-left: 25px;
     font-size: 20px;
     border-radius: 5px;
@@ -97,7 +97,7 @@ footer {
 }
 
 footer p {
-    margin: 0%;
+    margin: 0%;                    /* It removes the margin of p tag*/
 }
 
 
