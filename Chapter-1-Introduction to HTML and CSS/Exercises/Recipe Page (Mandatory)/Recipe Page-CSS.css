@@ -32,39 +32,40 @@ div {
 
 #display {
     font-size: larger;   /* it sets size of the text*/
-    margin-left: auto;   /* it sets margin left to screen */
-    margin-right: auto;  /* it sets margin right to screen */
+    margin-left: auto;   /* it sets margin left to nearby elements*/
+    margin-right: auto;  /* it sets margin right to nearby elements */
     width: 85%;          /* Within both left and right margin, the display box is aligned in horizontally center with 85% width */
     display: flex;       /* it sets all elements placed in next to each other*/
+    justify-content: space-between;  /*Within total width of the div box, it will distribute space evenly between the elements*/
 }
 
 #container {
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;    /* it sets margin top to nearby elements*/
+    margin-left: auto;   /* it sets margin left to nearby elements*/
+    margin-right: auto;  /* it sets margin right to nearby elements*/
 }
 
 img {
-    width:100%;
-    height: 250px;
-    object-fit: cover;
-    opacity: 0.5;
+    width:100%;   /* it sets full width of the img box*/
+    height: 250px;   /* it sets height of the img box to 250px*/
+    object-fit: cover;   /* Image keeps its original aspect ratio and fills the given size of the img box*/
+    opacity: 0.5;  /* it sets opacity of the imgage */
 }
 
 #title {
-    width: 100%;
-    position:absolute;
-    text-align: center;  
-    top:10px;
+    width: 100%;   /* it sets full width of the title box*/
+    position:absolute;  /* it enables to create new reference point and position the element and also it affects the other elements position as well */
+    text-align: center;  /* it aligns the text in center  */
+    top:10px;   /* it sets of position of the element */
 }
 
 footer {
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    background-color: #FFF67E;
-    font-size: 20px;
-    font-weight:bold;
-    padding: 7px;
-    bottom: 0;
+    width: 100%;    /* it sets full width of the footer*/
+    position: fixed;   /* the position is fixed*/
+    text-align: center;    /* it aligns the text in center  */
+    background-color: #FFF67E;   /* it sets background color  */
+    font-size: 20px;    /* it sets size of the text*/
+    font-weight:bold;   /* it sets font in bold */
+    padding: 7px;   /* it sets gap between the content and the border of footer */
+    bottom: 0;    /* it sets 0 gap between footer and bottom of the screen */
 }
