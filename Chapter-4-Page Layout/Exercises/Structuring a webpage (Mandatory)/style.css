@@ -17,7 +17,7 @@ header ul{
     margin: 25px auto;      /* it sets distance between the current element and top and bottom of the elements to 25px and left side and right side of the elements to auto */
     width: 45%;            /* it sets width to 45%*/
     justify-content: space-between;    /*Within total width, it will distribute space evenly between the elements*/
-    padding-bottom: 15px;            /* it sets distance between the content and the bottom of the border */
+    padding-bottom: 15px;            /* it sets distance between the content and the bottom border */
 }
 
 
@@ -38,8 +38,8 @@ main {
 article {
     margin: 0px;           /* it removes margin*/
     width: 60%;           /* it sets width to 60%*/
-    padding-top:10px;      /* it sets distance between the content and the top of the border */
-    padding-left: 10px;     /* it sets distance between the content and the left of the border */
+    padding-top:10px;      /* it sets distance between the content and the top border */
+    padding-left: 10px;     /* it sets distance between the content and the left border */
     margin-right: 20px;      /* it sets margin-right to 20 px*/
 }
 
