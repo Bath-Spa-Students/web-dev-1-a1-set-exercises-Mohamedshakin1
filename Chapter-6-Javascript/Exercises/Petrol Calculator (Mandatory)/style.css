@@ -5,7 +5,7 @@ body {
 }
 
 .petrol_calculator {
-    margin-top: 100px;                                  /* it sets distance between plot section and top of the screen*/
+    margin-top: 100px;                                  /* it sets distance between container element and top of the screen*/
     background-color: #31304D;
     width: 30%;                                        /* it sets width to 30%*/
     margin-left: auto;                                 /* it sets margin left to screen*/
@@ -38,7 +38,7 @@ body {
 }
 
 #button {
-    margin-left: auto;                           /* it sets margin left to petrol_calculator container*/
+    margin-left: auto;                           /* it sets margin left in petrol_calculator container*/
     width: 52%;                                  /* here width sets to 52%, it means positioning from left margin*/
 }
 
