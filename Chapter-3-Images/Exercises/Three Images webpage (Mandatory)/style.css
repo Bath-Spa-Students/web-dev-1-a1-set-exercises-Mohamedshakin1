@@ -19,7 +19,7 @@ p {
 
 .filter1, .filter2, .filter3 {
     margin: auto;             /* it sets margin to all size*/
-    width: 70%;              /* it sets width of the filter box to 70%*/
+    width: 60%;              /* it sets width of the filter box to 70%*/
     margin-bottom: 50px;     /* it sets distance between figure and elements below the figure*/
 }
 
