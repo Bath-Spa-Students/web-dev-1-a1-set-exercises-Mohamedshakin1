@@ -120,7 +120,7 @@ audio {
 }
 
 .note p {
-    color: black;                   /* it sets color of the text  */
+    color: white;                   /* it sets color of the text  */
     font-size: 18px;                  /* it sets size of the text*/
     text-align: left;                 /* it aligns the text to left  */
     margin-top: 20px;                 /* it sets distance between cast section and top of the elements*/
