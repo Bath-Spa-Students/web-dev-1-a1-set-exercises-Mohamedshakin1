@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;                /*it aligns text in center*/
-    margin-top: 40px;                  /* it sets distance between plot section and top of the screen*/
+    margin-top: 40px;                  /* it sets distance between h1 tag and top of the screen*/
     font-size: 40px;                   /* it sets size of the text*/
 }
 
@@ -29,7 +29,7 @@ h1 {
 #box1, #box2, #box3 {
     height: 350px;                              /* box height to 350px*/
     width: 350px;                               /* box width to 350px*/
-    border: 2px solid #596FB7;                /*sets border of 5px solid with color of #596FB7*/
+    border: 2px solid #596FB7;                /*sets border of 2px solid with color of #596FB7*/
     border-radius: 10px;                        /* it sets border-radius to 10px*/
     display: flex;                             /*Here display flex is used, to position the text in center of the box*/
     justify-content: center;                   /* here justify-content aligns the text in center of the box*/
