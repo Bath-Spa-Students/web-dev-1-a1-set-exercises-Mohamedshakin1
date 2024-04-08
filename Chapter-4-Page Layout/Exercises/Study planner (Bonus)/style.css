@@ -31,7 +31,7 @@ nav{
     display: flex;              /* it sets all elements placed in next to each other*/
     margin-left: auto;          /* it sets margin left to screen*/
     margin-right: auto;        /* it sets margin right to screen*/
-    margin-top: 20px;          /* it sets distance between plot section and top of the elements of nav*/
+    margin-top: 20px;          /* it sets distance between current and top of the elements of nav*/
     height: 100%;             /* it sets height to 100%*/
     width: 80%;               /* it sets width to 80%*/
     align-items: center;                  /* it aligns the text in center  */
@@ -40,7 +40,7 @@ nav{
 
 
 .container {
-    margin-top: 40px;               /* it sets distance between plot section and top of the elements of container*/           
+    margin-top: 40px;               /* it sets distance between current element and top of the elements of container*/           
     display: flex;                  /* it sets all elements placed in next to each other*/
     margin-left: auto;              /* it sets margin left to screen*/
     margin-right: auto;             /* it sets margin right to screen*/
@@ -71,7 +71,7 @@ nav{
 }
 
 .heading {
-    font-weight: 750;                /* it sets font thickness to 700 */
+    font-weight: 750;                /* it sets font thickness to 750 */
     font-size: 22px;                 /* it sets size of the text*/
 }
 
