@@ -14,7 +14,7 @@ header{
     top: 0;                            /* it sets 0 distance between the header and the top of the screen*/
     font-size: 25px;     /* it sets size of the text*/
     height: 50px;        /* it sets height of the header to 50px*/
-    position: sticky;    /* the position is fixed when the website scroll the menu bar will be sticked to top of the screen*/
+    position: sticky;    /*when the website scroll, the menu bar will be sticked to top of the screen*/
 }
 
 nav{
@@ -63,7 +63,7 @@ h1 {
 }
 
 .key-information{
-    width: 80%;                         /* it sets width of plot section to 80%*/
+    width: 80%;                         /* it sets width of key-information section to 80%*/
     margin-left: auto;                  /* it sets margin left to screen*/
     margin-right: auto;                 /* it sets margin right to screen*/
     display:flex;                       /* it sets all elements placed in next to each other*/
@@ -98,7 +98,7 @@ h1 {
     margin-left: auto;                   /* it sets margin left to screen*/
     margin-right: auto;                   /* it sets margin right to screen*/
     display: flex;                         /* it sets all elements placed in next to each other*/
-    justify-content: space-between;      /*Within total width of the key-information section, it will distribute space evenly between the elements*/
+    justify-content: space-between;      /*Within total width of the cast section, it will distribute space evenly between the elements*/
 }
 
 .cast-info {
