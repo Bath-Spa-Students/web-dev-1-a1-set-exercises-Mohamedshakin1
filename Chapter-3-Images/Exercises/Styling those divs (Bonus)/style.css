@@ -23,7 +23,7 @@ body {
 .div2 {
     margin: 15px;   /*sets distance between the boxes*/
     border: 5px solid #00ff00;              /*sets border of 5px solid with color of 300ff00*/
-    box-shadow: 7px 7px 5px black inset;     /*sets border shadow in the box with horizontally 7px, vertically 7px, blurness of 5px and color of black*/
+    box-shadow: 7px 7px 5px black inset;     /*sets border shadow inside the box with horizontally 7px, vertically 7px, blurness of 5px and color of black*/
 }
 
 .div3 {
