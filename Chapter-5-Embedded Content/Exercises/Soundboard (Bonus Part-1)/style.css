@@ -1,6 +1,6 @@
 body {
     background-image: url(./Media/yellow-background.jpeg);   /*inserting background image from a folder*/
-    background-size: cover;                                 /* keeping its original aspect ratio and image fills the body background*/
+    background-size: cover;                                 /* keeping its original aspect ratio of image size and fills the body background*/
 }
 
 p {
@@ -38,8 +38,8 @@ p {
 }
 
 .grid-container > div > button:hover {
-    background-color: #FF8911;       /* it sets background color of the button when mouse cursor is pointed to link */
-    transform: scale(1.1);             /* it sets transformation of shape size of the button when mouse cursor is pointed to link */
+    background-color: #FF8911;       /* it sets background color of the button when mouse cursor is pointed to button */
+    transform: scale(1.1);             /* it sets transformation of shape size of the button when mouse cursor is pointed to button */
     border: 0;                         /* it removes the border*/
 }
 
