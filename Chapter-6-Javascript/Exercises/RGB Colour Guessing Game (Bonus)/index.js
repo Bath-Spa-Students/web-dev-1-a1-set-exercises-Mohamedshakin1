@@ -51,7 +51,7 @@ function clear() {
 }
 
 //Created a function game()
-//Inside function game(), it contains three function that is randomColor(), fillColor, space
+//Inside function game(), it contains three function that is randomColor(), fillColor(), space()
 //This function used for to play next round of the game
 function game() {
     randomColor();  
