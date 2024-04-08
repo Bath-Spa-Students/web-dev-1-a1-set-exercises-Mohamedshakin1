@@ -8,6 +8,7 @@ h1 {
     text-align: center;                /*it aligns text in center*/
     margin-top: 40px;                  /* it sets distance between h1 tag and top of the screen*/
     font-size: 40px;                   /* it sets size of the text*/
+    color: white;
 }
 
 
@@ -15,6 +16,7 @@ h1 {
 .menu p {
     font-size: 25px;
     text-align: center;
+    color: white;
 }
 
 .container {
