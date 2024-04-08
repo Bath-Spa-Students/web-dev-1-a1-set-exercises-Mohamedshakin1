@@ -6,7 +6,7 @@ body {
 .video-container {
     display: flex;         /*Here display flex is used, to position the video in center of the screen*/
     justify-content: center;    /*it aligns video in horizontally center*/
-    height: 100vh;              /* It sets height of full screen*/
+    height: 100vh;              /* It sets height of video container to full screen*/
     align-items: center;        /*it aligns video in vertically center*/
 }
 
